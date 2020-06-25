@@ -5,6 +5,7 @@ files=$(ls -1 | wc -l)
 
 function guess {
 	echo "How many files are in the working directory?"
+	echo "Please enter your guess:"
 	read input
 }
 
